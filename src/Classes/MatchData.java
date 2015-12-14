@@ -1,4 +1,4 @@
-package Mongo_League_Data;
+package Classes;
 
 import org.bson.types.ObjectId;
 
@@ -12,7 +12,12 @@ public class MatchData{
 	public ObjectId id;
 	
 	public long matchID;
-	
+	public boolean hasBeenAnalyzed;
 	public MatchDetail details;
+	
+	public MatchData(){
+		
+		this.hasBeenAnalyzed = false;
+	}
 	
 }

@@ -1,4 +1,4 @@
-package Mongo_League_Data;
+package Classes;
 import org.bson.types.ObjectId;
 import org.mongodb.morphia.annotations.Id;
 
